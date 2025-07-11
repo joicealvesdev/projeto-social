@@ -6,22 +6,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 html, body {
-      height: 100vh;
+      height: 95vh;
       width: 100vw;
-      background-color: black;
+      background-color: rgb(197, 96, 96);
 }
+
+.h1principal {
+    text-align: center;
+}
+
 
 main {
     height: 100vh;
     position: relative;
-    background-color: green;
-    background-image: url('imagens/frame-iphone.png'); /* ajuste o caminho conforme a estrutura do projeto */
+    background-color: rgb(177, 216, 177);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 
 section#telefone {
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,6 +34,11 @@ section#telefone {
     
     height: 500px;
     width: 500px;
-    background-color: blue;
-    background-image: url(imagens/frame-iphone.png);
+    background-color: rgb(138, 137, 216);
+   
 }
+
+section#telefone, main {
+    
+}
+
